@@ -1,8 +1,8 @@
 {
-  "name": "financial",
+  "name": "nestjsevents",
   "version": "0.1.0",
   "private": true,
-  "description": "Financial events API (NestJS, Fastify, CQRS + Event Sourcing)",
+  "description": "Api events API (NestJS, Fastify, CQRS + Event Sourcing)",
   "license": "MIT",
   "scripts": {
     "dev": "nest start --watch",

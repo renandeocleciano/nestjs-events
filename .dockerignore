@@ -1,0 +1,8 @@
+node_modules
+dist
+Dockerfile
+.git
+.github
+README.md
+*.log
+docker-data

@@ -33,7 +33,7 @@ import { AccountEntity } from '../modules/accounts/account.entity';
       inject: [ConfigService],
       useFactory: (config: ConfigService) => ({
         type: 'mongodb',
-        url: config.get<string>('MONGO_URI', 'mongodb://localhost:27017/financial_events'),
+        url: config.get<string>('MONGO_URI', 'mongodb://localhost:27017/poc'),
         useUnifiedTopology: true,
         logging: false,
         entities: [StoredEvent],

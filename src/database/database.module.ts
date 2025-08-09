@@ -20,7 +20,7 @@ import { AccountEntity } from '../modules/accounts/account.entity';
         port: parseInt(config.get<string>('PG_PORT', '5432'), 10),
         username: config.get<string>('PG_USER', 'postgres'),
         password: config.get<string>('PG_PASSWORD', 'postgres'),
-        database: config.get<string>('PG_DATABASE', 'financial'),
+        database: config.get<string>('PG_DATABASE', 'meubanco'),
         entities: [CardEntity, HolderEntity, AccountEntity],
         synchronize: false,
         migrationsRun: false,
